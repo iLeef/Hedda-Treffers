@@ -1,0 +1,108 @@
+/* general */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+section {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.row {
+  margin: 40px 15%;
+}
+
+.col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+/* navigation */
+
+.navbar {
+  padding: 30px 80px;
+  font-size: 23px;
+  background-color: #5eb7b7;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+
+/* home */
+
+.front-image {
+  object-fit: none;
+  object-position: 30% 80%;
+  border-radius: 130%;
+  float: right;
+
+
+  width: 350px;
+  height: 350px;
+}
+
+#Home p {
+  padding-top: 20px;
+}
+
+#Home h1 {
+  padding-top: 10px;
+}
+
+/* about */
+
+#About {
+  background-color: #96d1c7;
+  padding: 15px 20%;
+  text-align: center;
+}
+
+/* work */
+
+.work-image {
+  object-fit: none;
+  object-position: 30% 80%;
+  border-radius: 130%;
+  float: left;
+
+
+  width: 350px;
+  height: 350px;
+}
+
+#Work p {
+  padding-top: 20px;
+}
+
+#Work h1 {
+  padding-top: 10px;
+}
+
+#Work .btn {
+  background-color: #fc7978;
+  border-color: #fc7978;
+}
+
+#Work .btn:hover {
+  background-color: #ffafb0;
+  border-color: #ffafb0;
+}
+
+/* contact */
+
+#Contact {
+  background-color: #ffafb0;
+}
