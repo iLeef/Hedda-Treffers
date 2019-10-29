@@ -62,12 +62,20 @@ section {
   padding-top: 10px;
 }
 
-/* about */
+/* ikjes */
 
-#About {
+#ikjes {
   background-color: #96d1c7;
-  padding: 15px 20%;
+  padding: 15px 0;
   text-align: center;
+}
+
+.carousel-control-prev {
+  margin-left: -20%;
+}
+
+.carousel-control-next {
+  margin-right: -20%;
 }
 
 /* work */
