@@ -82,13 +82,14 @@ section {
 
 .work-image {
   object-fit: none;
-  object-position: 30% 80%;
-  border-radius: 130%;
+  object-position: 50% 10%;
+  border-radius: 100%;
   float: left;
+  margin-top: 50px;
 
 
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
 }
 
 #Work p {
@@ -107,6 +108,30 @@ section {
 #Work .btn:hover {
   background-color: #ffafb0;
   border-color: #ffafb0;
+}
+
+/* poster */
+
+#Poster {
+  background-color: #ffafb0;
+}
+
+#Poster img {
+  object-fit: scale-down;
+
+  width: 200px;
+  height: auto;
+  float: right;
+}
+
+/* book */
+
+#Book img {
+  object-fit: scale-down;
+
+  width: 200px;
+  height: auto;
+
 }
 
 /* contact */
