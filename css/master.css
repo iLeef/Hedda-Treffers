@@ -85,11 +85,10 @@ section {
   object-position: 50% 10%;
   border-radius: 100%;
   float: left;
-  margin-top: 50px;
 
 
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 
 #Work p {
