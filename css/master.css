@@ -139,6 +139,13 @@ section {
 
 }
 
+.modal-img {
+  width: 400px !important;
+}
+
+.bigger-img {
+  width: 480px !important;
+}
 /* contact */
 
 #Contact {

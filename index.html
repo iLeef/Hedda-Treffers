@@ -211,11 +211,21 @@
     <div class="row">
       <div class="col-lg-6">
         <h1>Header text</h1>
-        <p>Mijn ikjes-wc-poster, ontworpen door Ivo Schouten [linken naar instagram?], is nog te bestellen voor € 12,50. Stuur me een berichtje met je naam en adres en ik zorg dat je hem thuisgestuurd krijgt.</p>
+        <p>Mijn ikjes-wc-poster, ontworpen door Ivo Schouten [linken naar instagram?], is nog te bestellen voor €&nbsp;12,50. Stuur me een berichtje met je naam en adres en ik zorg dat je hem thuisgestuurd krijgt.</p>
       </div>
       <div class="col-lg-6">
-        <img src="css/images/test-poster.png" alt="">
+        <a data-toggle="modal" data-target="#posterModal">
+          <img src="css/images/test-poster.png" alt="">
+        </a>
 
+      </div>
+    </div>
+
+    <div class="modal fade" id="posterModal" tabindex="-1" role="dialog" aria-labelledby="posterModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-body">
+          <img class="modal-img bigger-img" src="css/images/test-poster.png" alt="">
+        </div>
       </div>
     </div>
   </section>
@@ -223,12 +233,22 @@
   <section id="Book">
     <div class="row">
       <div class="col-lg-6">
-        <img src="css/images/boek.jpg" alt="">
+        <a data-toggle="modal" data-target="#bookModal">
+          <img src="css/images/boek.jpg" alt="">
+        </a>
       </div>
       <div class="col-lg-6">
         <h1>Header text</h1>
-        <p>Van mijn boekje, ontworpen door Ivo Schouten [linken naar instagram?], zijn nog enkele exemplaren te koop (€ 9,99). Stuur me een berichtje met je naam en adres en ik zorg dat je het thuisgestuurd krijgt. Laten versturen als cadeautje
+        <p>Van mijn boekje, ontworpen door Ivo Schouten [linken naar instagram?], zijn nog enkele exemplaren te koop (€&nbsp;9,99). Stuur me een berichtje met je naam en adres en ik zorg dat je het thuisgestuurd krijgt. Laten versturen als cadeautje
           behoort ook tot de mogelijkheden.</p>
+      </div>
+    </div>
+
+    <div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-body">
+          <img class="modal-img" src="css/images/boek.jpg" alt="">
+        </div>
       </div>
     </div>
   </section>
@@ -239,7 +259,7 @@
         <h1>geïnteresseerd?</h1>
         <p>Neem contact mij op via deze links</p>
         <p><i class="fab fa-linkedin fa-2x"></i>
-          <i class="fas fa-envelope fa-2x" ></i></p>
+          <i class="fas fa-envelope fa-2x"></i></p>
       </div>
 
     </div>
