@@ -33,13 +33,16 @@ section {
 .navbar {
   padding: 30px 80px;
   font-size: 23px;
-  background-color: #5eb7b7;
+  background-color: #AC781D;
 }
 
 .navbar-brand {
   font-size: 30px;
 }
 
+.nav-link {
+  color: #eaeaea !important;
+}
 
 /* home */
 
@@ -65,9 +68,16 @@ section {
 /* ikjes */
 
 #ikjes {
-  background-color: #96d1c7;
+  background-color: #00342B;
   padding: 15px 0;
   text-align: center;
+  color: #cbcbcb;
+}
+
+.carousel-item p{
+  max-width: 76%;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .carousel-control-prev {
@@ -79,7 +89,7 @@ section {
 }
 
 .ikjes-explained {
-  font-size: 30px;
+  font-size: 27px;
   margin-bottom: 60px;
 }
 
@@ -104,20 +114,11 @@ section {
   padding-top: 10px;
 }
 
-#Work .btn {
-  background-color: #fc7978;
-  border-color: #fc7978;
-}
-
-#Work .btn:hover {
-  background-color: #ffafb0;
-  border-color: #ffafb0;
-}
-
 /* poster */
 
 #Poster {
-  background-color: #ffafb0;
+  background-color: #AC781D;
+  color: #fff;
 }
 
 #Poster img {
@@ -141,5 +142,10 @@ section {
 /* contact */
 
 #Contact {
-  background-color: #ffafb0;
+  background-color: #00342B;
+  color: #cbcbcb ;
+}
+
+.fa-linkedin {
+  padding-right: 7px;
 }
