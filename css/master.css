@@ -89,7 +89,7 @@ section {
 }
 
 .ikjes-explained {
-  font-size: 27px;
+  font-size: 23px;
   margin-bottom: 60px;
 }
 
@@ -129,6 +129,10 @@ section {
   float: right;
 }
 
+#Poster a{
+  color: #fff;
+  text-decoration: none;
+}
 /* book */
 
 #Book img {
@@ -137,6 +141,11 @@ section {
   width: 200px;
   height: auto;
 
+}
+
+#Book a{
+  color: black;
+  text-decoration: none;
 }
 
 .modal-img {
