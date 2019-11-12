@@ -96,7 +96,7 @@ section {
 /* work */
 
 .work-image {
-  object-fit: none;
+  object-fit: cover;
   object-position: 50% 10%;
   border-radius: 100%;
   float: left;
