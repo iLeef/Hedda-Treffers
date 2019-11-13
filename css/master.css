@@ -47,9 +47,9 @@ section {
 /* home */
 
 .front-image {
-  object-fit: none;
+  object-fit: cover;
   object-position: 30% 80%;
-  border-radius: 130%;
+  border-radius: 100%;
   float: right;
 
 
@@ -97,7 +97,7 @@ section {
 
 .work-image {
   object-fit: cover;
-  object-position: 50% 10%;
+  object-position: 50% 50%;
   border-radius: 100%;
   float: left;
 
@@ -122,8 +122,6 @@ section {
 }
 
 #Poster img {
-  object-fit: scale-down;
-
   width: 200px;
   height: auto;
   float: right;
