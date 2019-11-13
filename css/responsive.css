@@ -1,27 +1,71 @@
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   h1 {
     font-size: 25px;
   }
+
+  section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar {
+    padding-right: 40px;
+    padding-left: 50px;
+  }
+
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
   .work-image {
     width: 260px;
     height: 260px;
-    float: right;
-    margin-right: 20%;
+    float: none;
     margin-bottom: 30px;
   }
 
   .front-image {
     width: 260px;
     height: 260px;
-    margin-right: 14%;
+    float: none;
     margin-top: 30px;
   }
 
   .ikjes-explained {
     font-size: 18px;
+  }
+
+  .carousel-item p{
+    font-size: 13px;
+  }
+
+  #Poster h1 {
+    padding-top: 30px;
+  }
+
+  #Poster img {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    float: none;
+  }
+
+  #Book h1 {
+    padding-top: 30px;
+  }
+
+  #Contact p {
+    padding-top: 30px;
+  }
+
+  .fa-2x {
+    padding-bottom: 20px;
   }
 }
