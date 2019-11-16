@@ -173,6 +173,15 @@ section {
   color: #cbcbcb ;
 }
 
+#Contact a{
+  text-decoration: none;
+  color: #cbcbcb;
+}
+
+#Contact a:hover{
+  color: white;
+}
+
 .fa-linkedin {
   padding-right: 7px;
 }
