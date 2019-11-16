@@ -131,6 +131,10 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+#Poster a:hover{
+  color: black;
+}
 /* book */
 
 #Book img {
@@ -144,6 +148,15 @@ section {
 #Book a{
   color: black;
   text-decoration: none;
+}
+
+#Book a{
+  color: #black;
+  text-decoration: none;
+}
+
+#Book a:hover{
+  color: #dedede;
 }
 
 .modal-img {
