@@ -10,6 +10,11 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
 section {
   padding-top: 25px;
   padding-bottom: 35px;
@@ -74,7 +79,7 @@ section {
   color: #cbcbcb;
 }
 
-.carousel-item p{
+.carousel-item p {
   max-width: 76%;
   margin-left: 12%;
   margin-right: 12%;
@@ -110,7 +115,7 @@ section {
   padding-top: 20px;
 }
 
-#Work h1 {
+#Work h2 {
   padding-top: 10px;
 }
 
@@ -127,14 +132,15 @@ section {
   float: right;
 }
 
-#Poster a{
+#Poster a {
   color: #fff;
   text-decoration: none;
 }
 
-#Poster a:hover{
+#Poster a:hover {
   color: black;
 }
+
 /* book */
 
 #Book img {
@@ -145,17 +151,17 @@ section {
 
 }
 
-#Book a{
+#Book a {
   color: black;
   text-decoration: none;
 }
 
-#Book a{
+#Book a {
   color: #black;
   text-decoration: none;
 }
 
-#Book a:hover{
+#Book a:hover {
   color: #dedede;
 }
 
@@ -166,19 +172,20 @@ section {
 .bigger-img {
   width: 480px !important;
 }
+
 /* contact */
 
 #Contact {
   background-color: #00342B;
-  color: #cbcbcb ;
+  color: #cbcbcb;
 }
 
-#Contact a{
+#Contact a {
   text-decoration: none;
   color: #cbcbcb;
 }
 
-#Contact a:hover{
+#Contact a:hover {
   color: white;
 }
 
