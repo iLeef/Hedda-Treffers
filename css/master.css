@@ -81,8 +81,11 @@ section {
 
 .carousel-item p {
   max-width: 76%;
+  overflow-y: auto;
+  height: 250px;
   margin-left: 12%;
   margin-right: 12%;
+  text-align: left;
 }
 
 .carousel-control-prev {
@@ -157,7 +160,7 @@ section {
 }
 
 #Book a {
-  color: #black;
+  color: black;
   text-decoration: none;
 }
 
